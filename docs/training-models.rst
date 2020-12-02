@@ -1,7 +1,7 @@
 Uploading A Trained Model
 ********************************
 
-Training models occurs outside Elasticsearch LTR. You use the plugin to log features (as mentioned in :doc:`logging-features`). Then with whichever technology you choose, you train a ranking model. You upload a model to Elasticsearch LTR in the available serialization formats (ranklib, xgboost, and others). Let's first urst talk briefly about training in supported technologies (though not at all an extensive overview) and dig into uploading a model.
+Training models occurs outside Elasticsearch LTR. You use the plugin to log features (as mentioned in :doc:`logging-features`). Then with whichever technology you choose, you train a ranking model. You upload a model to Elasticsearch LTR in the available serialization formats (ranklib, xgboost, and others). Let's first talk briefly about training in supported technologies (though not at all an extensive overview) and dig into uploading a model.
 
 ====================
 Ranklib training
